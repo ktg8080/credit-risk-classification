@@ -37,10 +37,10 @@ Logistic Regression Model
 ### Confusion Matrix:
 The confusion matrix highlights the model’s performance:
 
-- **True Positives (`1` correctly identified):** High.
-- **False Positives (`0` incorrectly predicted as `1`):** Some misclassification.
-- **True Negatives (`0` correctly identified):** Very high.
-- **False Negatives (`1` incorrectly predicted as `0`):** Minimal.
+- True Positives (`1` correctly identified): High.
+- False Positives (`0` incorrectly predicted as `1`): Some misclassification.
+- True Negatives (`0` correctly identified): Very high.
+- False Negatives (`1` incorrectly predicted as `0`): Minimal.
 
 Summary
 
