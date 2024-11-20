@@ -1,10 +1,10 @@
 # credit-risk-classification
 
-Overview of the Analysis
+### Overview of the Analysis
 
 This analysis evaluates the performance of a logistic regression model in predicting loan statuses, specifically distinguishing between healthy loans (0) and high-risk loans (1). The analysis used financial data provided in lending_data.csv, which includes various features describing the loans and their associated risk status.
 
-Key Steps:
+### Key Steps:
 
 	1.	Data Preparation:
 		Loaded the data into a Pandas DataFrame.
@@ -17,7 +17,7 @@ Key Steps:
 		Evaluated model performance using a confusion matrix and a classification report.
 		Analyzed the accuracy, precision, recall, and F1-score to determine the model’s effectiveness.
 
-Results
+### Results
 
 Logistic Regression Model
 
@@ -42,7 +42,7 @@ The confusion matrix highlights the model’s performance:
 - True Negatives (`0` correctly identified): Very high.
 - False Negatives (`1` incorrectly predicted as `0`): Minimal.
 
-Summary
+### Summary
 
 The logistic regression model demonstrates strong performance:
 	•	Strengths: Near-perfect predictions for healthy loans (0) with a precision of 100% and recall of 99%.
