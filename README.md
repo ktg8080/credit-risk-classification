@@ -7,15 +7,15 @@ This analysis evaluates the performance of a logistic regression model in predic
 Key Steps:
 
 	1.	Data Preparation:
-	•	Loaded the data into a Pandas DataFrame.
-	•	Split the data into labels (y, the loan_status column) and features (X, the remaining columns).
-	•	Used train_test_split to divide the data into training and testing sets.
+		Loaded the data into a Pandas DataFrame.
+		Split the data into labels (y, the loan_status column) and features (X, the remaining columns).
+		Used train_test_split to divide the data into training and testing sets.
 	2.	Model Development:
-	•	Created a logistic regression model using the training data (X_train and y_train).
-	•	Used the fitted model to generate predictions for the testing dataset (X_test).
+		Created a logistic regression model using the training data (X_train and y_train).
+		Used the fitted model to generate predictions for the testing dataset (X_test).
 	3.	Evaluation:
-	•	Evaluated model performance using a confusion matrix and a classification report.
-	•	Analyzed the accuracy, precision, recall, and F1-score to determine the model’s effectiveness.
+		Evaluated model performance using a confusion matrix and a classification report.
+		Analyzed the accuracy, precision, recall, and F1-score to determine the model’s effectiveness.
 
 Results
 
@@ -24,15 +24,15 @@ Logistic Regression Model
 	•	Accuracy: 99%
 	•	The model correctly classified 99% of loans overall.
 	•	Precision:
-	•	Healthy Loans (0): 100%
-(All predicted healthy loans are truly healthy.)
+	•	Healthy Loans (0): 100%		
+		(All predicted healthy loans are truly healthy.)
 	•	High-Risk Loans (1): 84%
-(16% of loans predicted as high-risk are misclassified.)
+		(16% of loans predicted as high-risk are misclassified.)
 	•	Recall:
 	•	Healthy Loans (0): 99%
-(1% of actual healthy loans were misclassified.)
+		(1% of actual healthy loans were misclassified.)
 	•	High-Risk Loans (1): 94%
-(6% of actual high-risk loans were missed.)
+		(6% of actual high-risk loans were missed.)
 
 Confusion Matrix:
 
