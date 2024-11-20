@@ -45,8 +45,8 @@ The confusion matrix highlights the model’s performance:
 ### Summary
 
 The logistic regression model demonstrates strong performance:
-	•	Strengths: Near-perfect predictions for healthy loans (0) with a precision of 100% and recall of 99%.
-	•	Limitations: While the model performs well for high-risk loans (1), it occasionally misclassifies healthy loans as high-risk, indicated by a precision of 84%.
+- Strengths: Near-perfect predictions for healthy loans (0) with a precision of 100% and recall of 99%.
+- Limitations: While the model performs well for high-risk loans (1), it occasionally misclassifies healthy loans as high-risk, indicated by a precision of 84%.
 
 Recommendation:
 This model is recommended for use due to its overall high accuracy and reliability. However, since the identification of high-risk loans (1) is critical, further refinement is advised. Techniques such as addressing class imbalance or adjusting the decision threshold could reduce false positives, improving the model’s performance for high-risk loans while maintaining its strength in identifying healthy loans.
